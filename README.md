@@ -1,4 +1,4 @@
-EPA GHGRP Ingetion Pipeline
+EPA GHGRP Ingestion Pipeline
 ==============================
 The EPA GHG Reporting Program (GHGRP) provides annual data on approximately 10,000 facilities that emit 25 kt CO2e or more per year, across all industries.  This ingestion pipeline marries [Global Legal Entity Identifier](https://www.gleif.org/en) information to reported and reporting company names, then makes the data more [tidy](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) (using a wide-to-long conversion) before ingesting into the Data Commons.
 
